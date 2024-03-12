@@ -1,0 +1,1244 @@
+[
+  {
+    'offsetSeconds': 0.0,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 5.454545454545454,
+    'element': <music21.stream.Measure
+    1
+    offset=0.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 0.0,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 5.454545454545454,
+    'element': <music21.stream.Measure
+    1
+    offset=0.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 5.454545454545454,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 10.909090909090908,
+    'element': <music21.stream.Measure
+    2
+    offset=4.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 5.454545454545454,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 10.909090909090908,
+    'element': <music21.stream.Measure
+    2
+    offset=4.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 10.909090909090908,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 16.363636363636363,
+    'element': <music21.stream.Measure
+    3
+    offset=8.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 10.909090909090908,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 16.363636363636363,
+    'element': <music21.stream.Measure
+    3
+    offset=8.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 16.363636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 21.818181818181817,
+    'element': <music21.stream.Measure
+    4
+    offset=12.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 16.363636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 21.818181818181817,
+    'element': <music21.stream.Measure
+    4
+    offset=12.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 21.818181818181817,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 27.27272727272727,
+    'element': <music21.stream.Measure
+    5
+    offset=16.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 21.818181818181817,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 27.27272727272727,
+    'element': <music21.stream.Measure
+    5
+    offset=16.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 27.27272727272727,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 32.72727272727273,
+    'element': <music21.stream.Measure
+    6
+    offset=20.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 27.27272727272727,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 32.72727272727273,
+    'element': <music21.stream.Measure
+    6
+    offset=20.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 32.72727272727273,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 38.18181818181818,
+    'element': <music21.stream.Measure
+    7
+    offset=24.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 32.72727272727273,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 38.18181818181818,
+    'element': <music21.stream.Measure
+    7
+    offset=24.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 38.18181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 43.63636363636363,
+    'element': <music21.stream.Measure
+    8
+    offset=28.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 38.18181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 43.63636363636363,
+    'element': <music21.stream.Measure
+    8
+    offset=28.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 43.63636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 49.090909090909086,
+    'element': <music21.stream.Measure
+    9
+    offset=32.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 43.63636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 49.090909090909086,
+    'element': <music21.stream.Measure
+    9
+    offset=32.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 49.090909090909086,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 54.54545454545454,
+    'element': <music21.stream.Measure
+    10
+    offset=36.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 49.090909090909086,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 54.54545454545454,
+    'element': <music21.stream.Measure
+    10
+    offset=36.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 54.54545454545454,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 59.99999999999999,
+    'element': <music21.stream.Measure
+    11
+    offset=40.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 54.54545454545454,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 59.99999999999999,
+    'element': <music21.stream.Measure
+    11
+    offset=40.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 59.99999999999999,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 65.45454545454545,
+    'element': <music21.stream.Measure
+    12
+    offset=44.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 59.99999999999999,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 65.45454545454545,
+    'element': <music21.stream.Measure
+    12
+    offset=44.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 65.45454545454545,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 70.9090909090909,
+    'element': <music21.stream.Measure
+    13
+    offset=48.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 65.45454545454545,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 70.9090909090909,
+    'element': <music21.stream.Measure
+    13
+    offset=48.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 70.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 76.36363636363636,
+    'element': <music21.stream.Measure
+    14
+    offset=52.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 70.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 76.36363636363636,
+    'element': <music21.stream.Measure
+    14
+    offset=52.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 76.36363636363636,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 81.81818181818181,
+    'element': <music21.stream.Measure
+    15
+    offset=56.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 76.36363636363636,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 81.81818181818181,
+    'element': <music21.stream.Measure
+    15
+    offset=56.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 81.81818181818181,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 87.27272727272727,
+    'element': <music21.stream.Measure
+    16
+    offset=60.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 81.81818181818181,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 87.27272727272727,
+    'element': <music21.stream.Measure
+    16
+    offset=60.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 87.27272727272727,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 92.72727272727272,
+    'element': <music21.stream.Measure
+    17
+    offset=64.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 87.27272727272727,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 92.72727272727272,
+    'element': <music21.stream.Measure
+    17
+    offset=64.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 92.72727272727272,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 98.18181818181817,
+    'element': <music21.stream.Measure
+    18
+    offset=68.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 92.72727272727272,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 98.18181818181817,
+    'element': <music21.stream.Measure
+    18
+    offset=68.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 98.18181818181817,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 103.63636363636363,
+    'element': <music21.stream.Measure
+    19
+    offset=72.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 98.18181818181817,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 103.63636363636363,
+    'element': <music21.stream.Measure
+    19
+    offset=72.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 103.63636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 109.09090909090908,
+    'element': <music21.stream.Measure
+    20
+    offset=76.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 103.63636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 109.09090909090908,
+    'element': <music21.stream.Measure
+    20
+    offset=76.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 109.09090909090908,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 114.54545454545453,
+    'element': <music21.stream.Measure
+    21
+    offset=80.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 109.09090909090908,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 114.54545454545453,
+    'element': <music21.stream.Measure
+    21
+    offset=80.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 114.54545454545453,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 119.99999999999999,
+    'element': <music21.stream.Measure
+    22
+    offset=84.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 114.54545454545453,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 119.99999999999999,
+    'element': <music21.stream.Measure
+    22
+    offset=84.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 119.99999999999999,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 125.45454545454544,
+    'element': <music21.stream.Measure
+    23
+    offset=88.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 119.99999999999999,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 125.45454545454544,
+    'element': <music21.stream.Measure
+    23
+    offset=88.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 125.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 130.9090909090909,
+    'element': <music21.stream.Measure
+    24
+    offset=92.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 125.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 130.9090909090909,
+    'element': <music21.stream.Measure
+    24
+    offset=92.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 130.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 136.36363636363637,
+    'element': <music21.stream.Measure
+    25
+    offset=96.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 130.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 136.36363636363637,
+    'element': <music21.stream.Measure
+    25
+    offset=96.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 136.36363636363635,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 141.8181818181818,
+    'element': <music21.stream.Measure
+    26
+    offset=100.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 136.36363636363635,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 141.8181818181818,
+    'element': <music21.stream.Measure
+    26
+    offset=100.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 141.8181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 147.27272727272728,
+    'element': <music21.stream.Measure
+    27
+    offset=104.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 141.8181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 147.27272727272728,
+    'element': <music21.stream.Measure
+    27
+    offset=104.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 147.27272727272725,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 152.72727272727272,
+    'element': <music21.stream.Measure
+    28
+    offset=108.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 147.27272727272725,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 152.72727272727272,
+    'element': <music21.stream.Measure
+    28
+    offset=108.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 152.72727272727272,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 158.1818181818182,
+    'element': <music21.stream.Measure
+    29
+    offset=112.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 152.72727272727272,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 158.1818181818182,
+    'element': <music21.stream.Measure
+    29
+    offset=112.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 158.18181818181816,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 163.63636363636363,
+    'element': <music21.stream.Measure
+    30
+    offset=116.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 158.18181818181816,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 163.63636363636363,
+    'element': <music21.stream.Measure
+    30
+    offset=116.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 163.63636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 169.0909090909091,
+    'element': <music21.stream.Measure
+    31
+    offset=120.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 163.63636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 169.0909090909091,
+    'element': <music21.stream.Measure
+    31
+    offset=120.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 169.09090909090907,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 174.54545454545453,
+    'element': <music21.stream.Measure
+    32
+    offset=124.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 169.09090909090907,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 174.54545454545453,
+    'element': <music21.stream.Measure
+    32
+    offset=124.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 174.54545454545453,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 180.0,
+    'element': <music21.stream.Measure
+    33
+    offset=128.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 174.54545454545453,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 180.0,
+    'element': <music21.stream.Measure
+    33
+    offset=128.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 180.0,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 185.45454545454547,
+    'element': <music21.stream.Measure
+    34
+    offset=132.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 180.0,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 185.45454545454547,
+    'element': <music21.stream.Measure
+    34
+    offset=132.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 185.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 190.9090909090909,
+    'element': <music21.stream.Measure
+    35
+    offset=136.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 185.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 190.9090909090909,
+    'element': <music21.stream.Measure
+    35
+    offset=136.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 190.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 196.36363636363637,
+    'element': <music21.stream.Measure
+    36
+    offset=140.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 190.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 196.36363636363637,
+    'element': <music21.stream.Measure
+    36
+    offset=140.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 196.36363636363635,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 201.8181818181818,
+    'element': <music21.stream.Measure
+    37
+    offset=144.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 196.36363636363635,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 201.8181818181818,
+    'element': <music21.stream.Measure
+    37
+    offset=144.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 201.8181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 207.27272727272728,
+    'element': <music21.stream.Measure
+    38
+    offset=148.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 201.8181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 207.27272727272728,
+    'element': <music21.stream.Measure
+    38
+    offset=148.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 207.27272727272725,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 212.72727272727272,
+    'element': <music21.stream.Measure
+    39
+    offset=152.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 207.27272727272725,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 212.72727272727272,
+    'element': <music21.stream.Measure
+    39
+    offset=152.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 212.72727272727272,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 218.1818181818182,
+    'element': <music21.stream.Measure
+    40
+    offset=156.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 212.72727272727272,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 218.1818181818182,
+    'element': <music21.stream.Measure
+    40
+    offset=156.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 218.18181818181816,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 223.63636363636363,
+    'element': <music21.stream.Measure
+    41
+    offset=160.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 218.18181818181816,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 223.63636363636363,
+    'element': <music21.stream.Measure
+    41
+    offset=160.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 223.63636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 229.0909090909091,
+    'element': <music21.stream.Measure
+    42
+    offset=164.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 223.63636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 229.0909090909091,
+    'element': <music21.stream.Measure
+    42
+    offset=164.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 229.09090909090907,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 234.54545454545453,
+    'element': <music21.stream.Measure
+    43
+    offset=168.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 229.09090909090907,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 234.54545454545453,
+    'element': <music21.stream.Measure
+    43
+    offset=168.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 234.54545454545453,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 240.0,
+    'element': <music21.stream.Measure
+    44
+    offset=172.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 234.54545454545453,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 240.0,
+    'element': <music21.stream.Measure
+    44
+    offset=172.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 239.99999999999997,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 245.45454545454544,
+    'element': <music21.stream.Measure
+    45
+    offset=176.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 239.99999999999997,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 245.45454545454544,
+    'element': <music21.stream.Measure
+    45
+    offset=176.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 245.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 250.9090909090909,
+    'element': <music21.stream.Measure
+    46
+    offset=180.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 245.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 250.9090909090909,
+    'element': <music21.stream.Measure
+    46
+    offset=180.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 250.90909090909088,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 256.3636363636363,
+    'element': <music21.stream.Measure
+    47
+    offset=184.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 250.90909090909088,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 256.3636363636363,
+    'element': <music21.stream.Measure
+    47
+    offset=184.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 256.3636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 261.81818181818176,
+    'element': <music21.stream.Measure
+    48
+    offset=188.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 256.3636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 261.81818181818176,
+    'element': <music21.stream.Measure
+    48
+    offset=188.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 261.8181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 267.27272727272725,
+    'element': <music21.stream.Measure
+    49
+    offset=192.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 261.8181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 267.27272727272725,
+    'element': <music21.stream.Measure
+    49
+    offset=192.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 267.27272727272725,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 272.7272727272727,
+    'element': <music21.stream.Measure
+    50
+    offset=196.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 267.27272727272725,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 272.7272727272727,
+    'element': <music21.stream.Measure
+    50
+    offset=196.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 272.7272727272727,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 278.18181818181813,
+    'element': <music21.stream.Measure
+    51
+    offset=200.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 272.7272727272727,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 278.18181818181813,
+    'element': <music21.stream.Measure
+    51
+    offset=200.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 278.1818181818182,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 283.6363636363636,
+    'element': <music21.stream.Measure
+    52
+    offset=204.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 278.1818181818182,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 283.6363636363636,
+    'element': <music21.stream.Measure
+    52
+    offset=204.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 283.6363636363636,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 289.09090909090907,
+    'element': <music21.stream.Measure
+    53
+    offset=208.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 283.6363636363636,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 289.09090909090907,
+    'element': <music21.stream.Measure
+    53
+    offset=208.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 289.09090909090907,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 294.5454545454545,
+    'element': <music21.stream.Measure
+    54
+    offset=212.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 289.09090909090907,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 294.5454545454545,
+    'element': <music21.stream.Measure
+    54
+    offset=212.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 294.5454545454545,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 299.99999999999994,
+    'element': <music21.stream.Measure
+    55
+    offset=216.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 294.5454545454545,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 299.99999999999994,
+    'element': <music21.stream.Measure
+    55
+    offset=216.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 300.0,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 305.45454545454544,
+    'element': <music21.stream.Measure
+    56
+    offset=220.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 300.0,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 305.45454545454544,
+    'element': <music21.stream.Measure
+    56
+    offset=220.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 305.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 310.9090909090909,
+    'element': <music21.stream.Measure
+    57
+    offset=224.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 305.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 310.9090909090909,
+    'element': <music21.stream.Measure
+    57
+    offset=224.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 310.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 316.3636363636363,
+    'element': <music21.stream.Measure
+    58
+    offset=228.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 310.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 316.3636363636363,
+    'element': <music21.stream.Measure
+    58
+    offset=228.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 316.3636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 321.81818181818176,
+    'element': <music21.stream.Measure
+    59
+    offset=232.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 316.3636363636363,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 321.81818181818176,
+    'element': <music21.stream.Measure
+    59
+    offset=232.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 321.8181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 327.27272727272725,
+    'element': <music21.stream.Measure
+    60
+    offset=236.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 321.8181818181818,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 327.27272727272725,
+    'element': <music21.stream.Measure
+    60
+    offset=236.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 327.27272727272725,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 332.7272727272727,
+    'element': <music21.stream.Measure
+    61
+    offset=240.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 327.27272727272725,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 332.7272727272727,
+    'element': <music21.stream.Measure
+    61
+    offset=240.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 332.7272727272727,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 338.18181818181813,
+    'element': <music21.stream.Measure
+    62
+    offset=244.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 332.7272727272727,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 338.18181818181813,
+    'element': <music21.stream.Measure
+    62
+    offset=244.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 338.18181818181813,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 343.63636363636357,
+    'element': <music21.stream.Measure
+    63
+    offset=248.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 338.18181818181813,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 343.63636363636357,
+    'element': <music21.stream.Measure
+    63
+    offset=248.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 343.6363636363636,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 349.09090909090907,
+    'element': <music21.stream.Measure
+    64
+    offset=252.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 343.6363636363636,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 349.09090909090907,
+    'element': <music21.stream.Measure
+    64
+    offset=252.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 349.09090909090907,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 354.5454545454545,
+    'element': <music21.stream.Measure
+    65
+    offset=256.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 349.09090909090907,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 354.5454545454545,
+    'element': <music21.stream.Measure
+    65
+    offset=256.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 354.5454545454545,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 359.99999999999994,
+    'element': <music21.stream.Measure
+    66
+    offset=260.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 354.5454545454545,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 359.99999999999994,
+    'element': <music21.stream.Measure
+    66
+    offset=260.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 360.0,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 365.45454545454544,
+    'element': <music21.stream.Measure
+    67
+    offset=264.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 360.0,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 365.45454545454544,
+    'element': <music21.stream.Measure
+    67
+    offset=264.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 365.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 370.9090909090909,
+    'element': <music21.stream.Measure
+    68
+    offset=268.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 365.45454545454544,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 370.9090909090909,
+    'element': <music21.stream.Measure
+    68
+    offset=268.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 370.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 376.3636363636363,
+    'element': <music21.stream.Measure
+    69
+    offset=272.0>,
+    'voiceIndex': None
+  },
+  {
+    'offsetSeconds': 370.9090909090909,
+    'durationSeconds': 5.454545454545454,
+    'endTimeSeconds': 376.3636363636363,
+    'element': <music21.stream.Measure
+    69
+    offset=272.0>,
+    'voiceIndex': None
+  }
+]
