@@ -17,32 +17,29 @@ def get_seconds(element) -> float:
     return 'NOT FOUND!!!'
 
 
-record = []
-
-
-def match(midi_snip, mxl_snip) -> tuple:
+def match(midi_snip, mxl_snip, annotated_list) -> tuple:
     if Counter(map(str, midi_snip)) == Counter(map(str, mxl_snip)):
-        print('matched')
-        print(midi_snip, mxl_snip)
+        print('matched', midi_snip, mxl_snip)
+
         # something to get seconds
         mxl_snip[-1].__setattr__('secrsss', get_seconds(midi_snip[-1]))
-        record.append(mxl_snip[-1])
+        annotated_list.append(mxl_snip[-1])
         print("end seconds: ", mxl_snip[-1].secrsss)
-        print("record: ", record)
 
-        return mxl_snip[-1].next(), midi_snip[-1].next()
+        print('returned values: ', mxl_snip[-1].next(), midi_snip[-1].next(), annotated_list, '\n')
+        return [mxl_snip[-1].next()], [midi_snip[-1].next()], annotated_list
 
     else:  # expands the range
         print(midi_snip, type(midi_snip))
         midi_snip.append(midi_snip[-1].next())
         mxl_snip.append(mxl_snip[-1].next())
-        print('expanding')
-        return midi_snip, mxl_snip
+        print('expanding')  # NEED TO BUILD IN A LIMIT!!!
+        return midi_snip, mxl_snip, annotated_list
 
 
-def iter(midi_snip, mxl_snip):
+def iter(midi_snip, mxl_snip, annotated_list):
     while mxl_snip[0].offset <= mxl.last().offset:
-        mxl_snip, midi_snip = match(mxl_snip, midi_snip)
+        mxl_snip, midi_snip, annotated_list = match(mxl_snip, midi_snip, annotated_list)
 
 
-iter(midi_snip=[midi[0]], mxl_snip=[mxl[0]])
+iter(midi_snip=[midi[0]], mxl_snip=[mxl[0]], annotated_list=[])
