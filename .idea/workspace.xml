@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="449d5ff1-e200-4368-b046-e80464b13bf3" name="Changes" comment="Proof of concept works">
+    <list default="true" id="449d5ff1-e200-4368-b046-e80464b13bf3" name="Changes" comment="Ah, no exceptions now. Still need to build in cap to expanding tho. and need to check if get_seconds is working as intended...&#10;NEED TO WRITE TESTS!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rough_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rough_work.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -36,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_annotate_midi.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_tables.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_test.py.executor&quot;: &quot;Run&quot;,
@@ -45,7 +50,7 @@
     &quot;Python.secondsMap.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;secondsMap-not-midiStream&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/jingx/PycharmProjects/pythonProject1/test&quot;
   }
@@ -59,7 +64,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Python tests in test_annotate_midi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_annotate_midi.py" />
+        <item itemvalue="Python tests.Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710575849402</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sort of working. Fixing bugs. Still on the case of wrong order only. Haven't put max no. of extensions.">
+      <option name="closed" value="true" />
+      <created>1710941394832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710941394832</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ah, no exceptions now. Still need to build in cap to expanding tho. and need to check if get_seconds is working as intended...&#10;NEED TO WRITE TESTS!!">
+      <option name="closed" value="true" />
+      <created>1710942334700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710942334700</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -131,7 +152,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="delete" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -140,6 +180,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Found secondsMap property. Going to delete previous work. Leaving a record." />
     <MESSAGE value="Proof of concept works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proof of concept works" />
+    <MESSAGE value="Sort of working. Fixing bugs. Still on the case of wrong order only. Haven't put max no. of extensions." />
+    <MESSAGE value="Ah, no exceptions now. Still need to build in cap to expanding tho. and need to check if get_seconds is working as intended...&#10;NEED TO WRITE TESTS!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ah, no exceptions now. Still need to build in cap to expanding tho. and need to check if get_seconds is working as intended...&#10;NEED TO WRITE TESTS!!" />
   </component>
 </project>

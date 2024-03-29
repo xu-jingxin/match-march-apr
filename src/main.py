@@ -1,45 +1,46 @@
 import random
 
+import music21.note
 from music21 import *
 from collections import Counter
 
-midi = (converter.parse('../Sonate_No._14_Moonlight_1st_Movement.mxl')
-        .flatten().getElementsByClass(note.NotRest)).stream()
 
-mxl = (converter.parse('../Sonate_No._14_Moonlight_1st_Movement.mxl')
+midi = converter.parse('../Sonate_No._14_Moonlight_1st_Movement.mxl')
+
+def check_MM(midi):  # check metronome marks
+    if len(midi.recurse().getElementsByClass(music21.tempo.MetronomeMark)
+            .getElementsByClass(music21.tempo.MetronomeMark).getElementsByOffset(0)) == 0:
+        raise ValueError("invalid midi: no MetronomeMark at the beginning")
+
+
+midi_secondsMap = sorted(midi.flatten().getElementsByClass(note.NotRest)).stream().secondsMap, key=lambda x: x['offsetSeconds'])
+
+mxl = converter.parse('../Sonate_No._14_Moonlight_1st_Movement.mxl')
        .flatten().getElementsByClass(note.NotRest)).stream()
 
-
-def get_seconds(element) -> float:
-    midi_dict_list = midi.secondsMap
-    for x in midi_dict_list:
-        if x['element'] == element: return x['endTimeSeconds']
-    return 'NOT FOUND!!!'
-
-
-def match(midi_snip, mxl_snip, annotated_list) -> tuple:
-    if Counter(map(str, midi_snip)) == Counter(map(str, mxl_snip)):
-        print('matched', midi_snip, mxl_snip)
-
-        # something to get seconds
-        mxl_snip[-1].__setattr__('secrsss', get_seconds(midi_snip[-1]))
-        annotated_list.append(mxl_snip[-1])
-        print("end seconds: ", mxl_snip[-1].secrsss)
-
-        print('returned values: ', mxl_snip[-1].next(), midi_snip[-1].next(), annotated_list, '\n')
-        return [mxl_snip[-1].next()], [midi_snip[-1].next()], annotated_list
-
-    else:  # expands the range
-        print(midi_snip, type(midi_snip))
-        midi_snip.append(midi_snip[-1].next())
+def match(midi_snip, mxl_snip, annotated_dict, last_index) -> tuple:
+    def expand(expansions=0):  # range expansion deals with wrong order of concurrent notes.
+        midi_snip.append(midi_secondsMap[last_index + 1]['element'])
         mxl_snip.append(mxl_snip[-1].next())
-        print('expanding')  # NEED TO BUILD IN A LIMIT!!!
-        return midi_snip, mxl_snip, annotated_list
+        expansions += 1
+        print('expanded')
+        match(midi_snip, mxl_snip, annotated_dict, last_index + 1)
 
 
-def iter(midi_snip, mxl_snip, annotated_list):
+    if Counter(map(str, midi_snip)) == Counter(map(str, mxl_snip)):
+        annotated_dict[midi_secondsMap[last_index]['element'].measureNumber] = midi_secondsMap[last_index]['endTimeSeconds']
+        print('matched')
+        return [midi_secondsMap[last_index+1]['element']], [mxl_snip[-1].next()], annotated_dict, last_index + 1
+    else:  # expands the range -> deals with wrong order.
+        expansion_success = expand()
+        if not expansion_success:
+            # missing or wrong element.
+
+
+
+def iter(midi_snip, mxl_snip, annotated_dict, last_index=0):
     while mxl_snip[0].offset <= mxl.last().offset:
-        mxl_snip, midi_snip, annotated_list = match(mxl_snip, midi_snip, annotated_list)
+        mxl_snip, midi_snip, annotated_dict, last_index = match(mxl_snip, midi_snip, annotated_dict, last_index)
+        print(mxl_snip, midi_snip, annotated_dict, last_index)
 
-
-iter(midi_snip=[midi[0]], mxl_snip=[mxl[0]], annotated_list=[])
+iter(midi_snip=[midi_secondsMap[0]['element']], mxl_snip=[mxl[0]], annotated_dict={})
