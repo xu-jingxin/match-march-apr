@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="449d5ff1-e200-4368-b046-e80464b13bf3" name="Changes" comment="Ah, no exceptions now. Still need to build in cap to expanding tho. and need to check if get_seconds is working as intended...&#10;NEED TO WRITE TESTS!!">
+    <list default="true" id="449d5ff1-e200-4368-b046-e80464b13bf3" name="Changes" comment="matching mxl to secondsMap works. Halfway through capping expansions and building a multi-error handling workflow. &#10;haven't written tests for check_MM()&#10;&#10;NEED TO WRITE TESTS!!">
+      <change afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_annotate_midi.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_tables.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.annotate_midi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rough_work.executor&quot;: &quot;Run&quot;,
-    &quot;Python.secondsMap.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;secondsMap-not-midiStream&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jingx/PycharmProjects/pythonProject1/test&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py.executor": "Run",
+    "Python tests.Python tests in test_annotate_midi.py.executor": "Run",
+    "Python tests.Python tests in test_main.py.executor": "Run",
+    "Python tests.Python tests in test_tables.py.executor": "Run",
+    "Python tests.Python tests in test_test.py.executor": "Run",
+    "Python tests.Unittests in test_main.py.executor": "Run",
+    "Python.annotate_midi.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.rough_work.executor": "Run",
+    "Python.secondsMap.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "secondsMap-not-midiStream",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jingx/PycharmProjects/pythonProject1/test",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jingx\PycharmProjects\pythonProject1\test" />
@@ -70,7 +77,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -133,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710942334700</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="matching mxl to secondsMap works. Halfway through capping expansions and building a multi-error handling workflow. &#10;haven't written tests for check_MM()&#10;&#10;NEED TO WRITE TESTS!!">
+      <option name="closed" value="true" />
+      <created>1711681983557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711681983557</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -182,6 +197,7 @@
     <MESSAGE value="Proof of concept works" />
     <MESSAGE value="Sort of working. Fixing bugs. Still on the case of wrong order only. Haven't put max no. of extensions." />
     <MESSAGE value="Ah, no exceptions now. Still need to build in cap to expanding tho. and need to check if get_seconds is working as intended...&#10;NEED TO WRITE TESTS!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ah, no exceptions now. Still need to build in cap to expanding tho. and need to check if get_seconds is working as intended...&#10;NEED TO WRITE TESTS!!" />
+    <MESSAGE value="matching mxl to secondsMap works. Halfway through capping expansions and building a multi-error handling workflow. &#10;haven't written tests for check_MM()&#10;&#10;NEED TO WRITE TESTS!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="matching mxl to secondsMap works. Halfway through capping expansions and building a multi-error handling workflow. &#10;haven't written tests for check_MM()&#10;&#10;NEED TO WRITE TESTS!!" />
   </component>
 </project>
