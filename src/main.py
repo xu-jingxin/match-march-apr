@@ -34,7 +34,7 @@ def match(midi_snip, mxl_snip, annotated_dict, last_index) -> tuple[list[note.No
         print('expanded')
         return midi_snip, mxl_snip
 
-    def checked_second_in_first(a, b):
+    def checked_second_in_first(a, b) -> bool:
         # checking if element exists in second list
         for key in b:
             if key not in a:
@@ -43,7 +43,7 @@ def match(midi_snip, mxl_snip, annotated_dict, last_index) -> tuple[list[note.No
                 return False
         return True
 
-    def checked_equal(midi_snip, mxl_snip):
+    def checked_equal(midi_snip, mxl_snip) -> bool:
         return Counter(map(str, midi_snip)) == Counter(map(str, mxl_snip))
 
     def check(midi_snip, mxl_snip, expansions=0) -> tuple[list[note.NotRest], list[note.NotRest], dict, int]:
@@ -71,7 +71,7 @@ def match(midi_snip, mxl_snip, annotated_dict, last_index) -> tuple[list[note.No
     return check(midi_snip, mxl_snip)
 
 def iterate(midi_snip, mxl_snip, annotated_dict, last_index=0):
-    while mxl_snip[0].offset <= mxl.last().previous().offset:
+    while last_index < len(mxl):  # mxl_snip[0].offset <= mxl.last().previous().offset:
         midi_snip, mxl_snip, annotated_dict, last_index = match(midi_snip, mxl_snip, annotated_dict, last_index)
         print(midi_snip, mxl_snip, annotated_dict, last_index)
 
