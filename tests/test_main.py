@@ -4,7 +4,7 @@ from music21 import stream, note, tempo
 from src import main
 
 
-class TestCheck_MM(unittest.TestCase):
+class Check_MM(unittest.TestCase):
     def test_raises_error(self):
         # midi lacks a metronome at the start, should raise error
         midi_stream = stream.Stream(note.Note())
@@ -17,9 +17,24 @@ class TestCheck_MM(unittest.TestCase):
         ])
         self.assertTrue(main.check_MM(midi_stream))
 
+class Expand(unittest.TestCase):
+    def setUp(self):
+        self.C = note.Note('C')
+        self.D = note.Note('D')
+        self.mxl_strm = stream.Stream([self.C, self.D])
 
-    # def test_something(self):
-    #     self.assertEqual(True, False)  # add assertion here
+        self.fake_secondsMap = [
+            {'element': self.C,
+             'endTimeSeconds': 2},
+            {
+                'element': self.D,
+                'endTimeSeconds': 4
+            }
+        ]
+
+    def test_base(self):
+        self.assertEqual(main.expand([self.C], [self.C], 0, midi_secondsMap=self.fake_secondsMap), ([self.C, self.D], [self.C, self.D], 1))
+        self.assertIs(main.expand([self.C], [self.C], 0, midi_secondsMap=self.fake_secondsMap), tuple[list[note.NotRest], list[note.NotRest], int])
 
 
 if __name__ == '__main__':

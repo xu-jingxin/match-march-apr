@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="449d5ff1-e200-4368-b046-e80464b13bf3" name="Changes" comment="added test_check_MM&#10;added some random type checks for functions.">
+    <list default="true" id="449d5ff1-e200-4368-b046-e80464b13bf3" name="Changes" comment="test push to remote?">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rough_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rough_work.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondsMap.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondsMap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +29,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="secondsMap-not-midiStream" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -52,7 +60,7 @@
     "Python.secondsMap.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "secondsMap-not-midiStream",
+    "git-widget-placeholder": "implement-as-a-Class",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/jingx/PycharmProjects/pythonProject1/test",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -67,7 +75,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in C:/Users/jingx/PycharmProjects/SR/test/test_annotate_midi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py" />
+        <item itemvalue="Python tests.Python tests in C:/Users/jingx/PycharmProjects/SR/test/test_annotate_midi.py" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711769886242</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test push to remote?">
+      <option name="closed" value="true" />
+      <created>1711873883146</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711873883146</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -167,6 +183,11 @@
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f63af851-792f-4b07-b2a9-05764f24c154" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -193,6 +214,11 @@
             </State>
           </value>
         </entry>
+        <entry key="f63af851-792f-4b07-b2a9-05764f24c154">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -203,6 +229,7 @@
     <MESSAGE value="Ah, no exceptions now. Still need to build in cap to expanding tho. and need to check if get_seconds is working as intended...&#10;NEED TO WRITE TESTS!!" />
     <MESSAGE value="matching mxl to secondsMap works. Halfway through capping expansions and building a multi-error handling workflow. &#10;haven't written tests for check_MM()&#10;&#10;NEED TO WRITE TESTS!!" />
     <MESSAGE value="added test_check_MM&#10;added some random type checks for functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="added test_check_MM&#10;added some random type checks for functions." />
+    <MESSAGE value="test push to remote?" />
+    <option name="LAST_COMMIT_MESSAGE" value="test push to remote?" />
   </component>
 </project>

@@ -1,12 +1,9 @@
 [
   {
-    'offsetSeconds': 0.0,
+    "offsetSeconds": 0.0,
     'durationSeconds': 0.16666666666666666,
     'endTimeSeconds': 0.16666666666666666,
-    'element': <music21.note.Note
-    G
-    #
-    >,
+    'element': <music21.note.NoteG#>,
     'voiceIndex': None
   },
   {
