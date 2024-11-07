@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="449d5ff1-e200-4368-b046-e80464b13bf3" name="Changes" comment="test push to remote?">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
+    <list default="true" id="449d5ff1-e200-4368-b046-e80464b13bf3" name="Changes" comment="rewrote as class! now I can start writing tests">
+      <change afterPath="$PROJECT_DIR$/src/ImageGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timestamper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rough_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rough_work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondsMap.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondsMap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Timestamper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -46,26 +44,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py.executor": "Run",
-    "Python tests.Python tests in test_annotate_midi.py.executor": "Run",
-    "Python tests.Python tests in test_main.py.executor": "Run",
-    "Python tests.Python tests in test_tables.py.executor": "Run",
-    "Python tests.Python tests in test_test.py.executor": "Run",
-    "Python tests.Unittests in test_main.py.executor": "Run",
-    "Python.annotate_midi.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.rough_work.executor": "Run",
-    "Python.secondsMap.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "implement-as-a-Class",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jingx/PycharmProjects/pythonProject1/test",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for src.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in C:/Users/jingx/PycharmProjects/SR/test/test_annotate_midi.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in C:/Users/jingx/PycharmProjects/pythonProject1/test/test_annotate_midi.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Timestamper.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_annotate_midi.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_main.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_tables.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Unittests for test_Timestamper.Check_MM.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Unittests in test_main.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ImageGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Timestamper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.annotate_midi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rough_work.executor&quot;: &quot;Run&quot;,
+    &quot;Python.secondsMap.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;implement-as-a-Class&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jingx/PycharmProjects/SR/tests&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jingx\PycharmProjects\pythonProject1\test" />
@@ -75,7 +80,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Python tests in C:/Users/jingx/PycharmProjects/SR/test/test_annotate_midi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,13 +91,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_annotate_midi.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_Timestamper.Check_MM" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Timestamper.Check_MM&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in C:/Users/jingx/PycharmProjects/SR/test/test_annotate_midi.py" />
+        <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python tests.Unittests for test_Timestamper.Check_MM" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711873883146</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hmm committing just to be safe before I branch">
+      <option name="closed" value="true" />
+      <created>1721123283879</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721123283879</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -230,6 +259,7 @@
     <MESSAGE value="matching mxl to secondsMap works. Halfway through capping expansions and building a multi-error handling workflow. &#10;haven't written tests for check_MM()&#10;&#10;NEED TO WRITE TESTS!!" />
     <MESSAGE value="added test_check_MM&#10;added some random type checks for functions." />
     <MESSAGE value="test push to remote?" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push to remote?" />
+    <MESSAGE value="hmm committing just to be safe before I branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="hmm committing just to be safe before I branch" />
   </component>
 </project>
